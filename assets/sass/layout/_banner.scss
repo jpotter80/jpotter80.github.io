@@ -16,8 +16,8 @@
 
 		.logo {
 			@include vendor('transition', (
-				'opacity 2s ease',
-				'transform 1s ease',
+				'opacity 0s ease',
+				'transform 0s ease',
 			));
 			@include vendor('transform', 'translateY(0)');
 			opacity: 1;
@@ -38,12 +38,12 @@
 
 		h2 {
 			@include vendor('transition', (
-				'opacity 0.5s ease',
-				'transform 0.5s ease',
-				'filter 0.25s ease',
+				'opacity 0s ease',
+				'transform 0s ease',
+				'filter 0s ease',
 			));
 			@include vendor('transform', 'translateX(0)');
-			@include vendor('transition-delay', '0.65s');
+			@include vendor('transition-delay', '0s');
 			@include vendor('filter', 'blur(0)');
 			opacity: 1;
 			border-bottom: solid 2px _palette(border);
@@ -54,12 +54,12 @@
 
 		p {
 			@include vendor('transition', (
-				'opacity 0.5s ease',
-				'transform 0.5s ease',
-				'filter 0.25s ease',
+				'opacity 0s ease',
+				'transform 0s ease',
+				'filter 0s ease',
 			));
 			@include vendor('transform', 'translateX(0)');
-			@include vendor('transition-delay', '0.8s');
+			@include vendor('transition-delay', '0s');
 			@include vendor('filter', 'blur(0)');
 			opacity: 1;
 			font-family: _font(family-heading);
